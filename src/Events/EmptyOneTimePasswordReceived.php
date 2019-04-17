@@ -8,5 +8,5 @@ use Illuminate\Queue\SerializesModels;
 
 class EmptyOneTimePasswordReceived
 {
-    use Dispatchable, InteractsWithSockets, SerializesModels;
+    use SerializesModels;
 }
