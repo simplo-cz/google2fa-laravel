@@ -8,7 +8,7 @@ use Illuminate\Queue\SerializesModels;
 
 class LoginSucceeded
 {
-    use Dispatchable, InteractsWithSockets, SerializesModels;
+    use SerializesModels;
 
     public $user;
 
